@@ -44,7 +44,9 @@ Repository for the Creative Coding course in the modul Play 1 w/ Gordan Saviƒçiƒ
   - [Starter-Code](https://editor.p5js.org/ritzdank/sketches/wd1YuitBP)
   - Andere Beispiele: [Average Temperature CH](https://editor.p5js.org/ritzdank/sketches/gshTXPNA9), [Export als SVG](https://editor.p5js.org/ritzdank/sketches/Qs7CHQnJV)
   
+## Day 3
 
+  - Individuelle Projektbetreuung
 
 ## Final project Deliverable
 
