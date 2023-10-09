@@ -16,11 +16,18 @@ Im Kurs Creative Coding schreibt ihr eure ersten kleinen Programme um einen visu
   - Könnt ihr einen Kreis in die Mitte der Zeichenfläche setzen? Färbt den Kreis in einer anderen Farbe ein. 
 
 ### Übung 1: Selbstporträt
+
 ![Selbstporträt](img/selfportrait.png)
-  - Aufgabe: Zeichnet euch selbst in p5js!
-  - Input: [forms, colours and shapes](https://www.youtube.com/watch?v=c3TeLi6Ns1E&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&t=0s)
-  - Don’t go for realistic, konzentriert euch auf ein markantes Detail. Alles ist erlaubt!
-  - überlegt welcher Parameter der Zeichnung durch eine dynamische Variable ersetzt werden kann
+
+Zeichnet euch selbst in P5js! Don’t go for realistic, konzentriert euch auf ein markantes Detail. Alles ist erlaubt. Dadurch lernt ihr die folgenden grundlegenden Techniken von P5: 
+
+- Umgang mit dem Koordinaten System
+- (ev hier oder schon oben?: Grundstruktur eines Programmes mit `setup` und `draw`)
+- Zeichnen mit Formen (`rect`, `ellipse`, u.a.)
+- Umgang mit Farben und Konturen (`fill`, `stroke`, `strokeWeight`, `noFill`, `noStroke`)
+- Verwenden von Variablen für Zahlen- und Farbwerte
+
+Geht alles etwas schnell? Wir können euch die Youtube-Tutorials von Dan Shiffmann ans Herz legen. [Hier gibts eines zu Formen, Farben und Zeichnen in P5.](https://www.youtube.com/watch?v=c3TeLi6Ns1E&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&t=0s))
 
 ### Übung 2: 10Print
 ![goto10](img/goto10.png)
