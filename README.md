@@ -141,8 +141,20 @@ while(boolean expression){
 
 Wenn der boolesche Ausdruck als wahr bewertet wird, wird der Code innerhalb der Schleife ausgeführt. Sobald der boolesche Ausdruck als falsch bewertet wird, verlässt der Computer die while-Schleife und fährt mit dem Programm fort. 
 
+
+#### Save & Export
+
+Es gibt verschiedene Wege um die Bilder welche ihr in P5js kreiert zu exportieren, einer davon ist die Funktion `save()` mit welcher ihr den gesammten Canvas / Sketch als Bild exportieren könnt. 
+
+```
+let cnv = createCanvas(300, 300);
+save(cnv, 'myCanvas.jpg');
+```
+
 ### Übung 4: Datensatz Array
+
 ![schweiz](img/schweiz.jpg)
+
   - Aufgabe: Erstellt zwei Arrays/Listen (mit Nummern oder Text) und visualisiert diese. Probiert andere Visualisierungsformen aus (ellipse, line, point, arc, etc.) bzw. Gegenüberstellungen wie hier im Bild (Schweiz in Bild und Zahl)
   - Input [Arrays Teil 1](https://tube.switch.ch/videos/52a76917), [Arrays Teil 2](https://tube.switch.ch/videos/f3d6bdb1), [Arrays Teil 3](https://tube.switch.ch/videos/dfebe960)
   - [Code](XXX)
