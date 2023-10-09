@@ -4,6 +4,12 @@ Repository für den Creative Coding Kurs im Modul Play 1 mit Gordan Savičić & 
 
 Im Kurs Creative Coding schreibt ihr eure ersten kleinen Programme um einen visuellen Output zu generieren. Ihr nutzt dazu P5js, Javascript-Library für Creative Coding, mit dem Schwerpunkt, das Programmieren für Künstler, Designer, Pädagogen, Anfänger und alle anderen zugänglich zu machen. Für mehr Info's zu P5js, schau dir die [Webseite](https://p5js.org/) an.
 
+**Interne Notes / Fragen**
+
+- Wo werden Datentypen mit Variablen eingeführt (Int, Float, Colors, Boolean...)
+- Scope von Variablen, ev. auch var/let erwähnen
+- Wo erklähren die dir Grundstruktur eines Programmes mit `setup` und `draw`?
+
 ## Day 1
 
 ### Kickoff
@@ -28,7 +34,7 @@ Zeichnet euch selbst in P5js! Don’t go for realistic, konzentriert euch auf ei
 - Verwenden von Variablen für Zahlen- und Farbwerte (`let x = 10;`)
 - Verwenden von Kommentaren mit `// mein Kommentar`
 
-Geht alles etwas schnell? Wir können euch die Youtube-Tutorials von Dan Shiffmann ans Herz legen. [Hier gibts eines zu Formen, Farben und Zeichnen in P5.](https://www.youtube.com/watch?v=c3TeLi6Ns1E&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&t=0s))
+Geht alles etwas schnell? Wir können euch die Youtube-Tutorials von Dan Shiffmann ans Herz legen. [Hier](https://www.youtube.com/watch?v=c3TeLi6Ns1E&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&t=0s) gibts eines zu Formen, Farben und Zeichnen in P5.
 
 ### Übung 2: 10Print
 
@@ -38,7 +44,7 @@ Geht alles etwas schnell? Wir können euch die Youtube-Tutorials von Dan Shiffma
 
 #### Variablen
 
-Variablen sind ein zentraler Bestandteil jeder Programmiersprache. Mittels einer Variable kann man den Wert einmal festlegen, aber an verschiedenen Orten im Programm verwenden. Hier ein Beispiel wie man eine Variable definiert.
+Variablen sind ein zentraler Bestandteil jeder Programmiersprache. Mittels einer Variable kann man den Wert 1x festlegen, aber an verschiedenen Orten im Programm verwenden. Hier ein Beispiel wie man eine Variable definiert.
 
 ```
 let meineVariable; // definiere eine "leere" Variable
@@ -106,9 +112,34 @@ if(maximum == 100) {
 ## Day 2
 
 ### Übung 3: Generatives Muster
+
 ![muster](img/loop.png)
-  - Aufgabe: Aufbauend auf den Funktionen der Schlaufen probiert ein generatives Muster zu erstellen. Export dieses mittels der Funktion save()
-  - Input: [Loops](https://www.youtube.com/watch?v=cnRD9o6odjk)
+
+Aufbauend auf den Funktionen der Schlaufe (`for`, `while`) erstellt ihr ein generatives Musters welches ihr anschliessend mittels `save()` exportiert.
+
+#### For Loop 
+
+Wenn du viele ähnliche Opertationen auf einmal erledigen wollen, ist die "for-Schleife" das Mittel der Wahl. `let i` ist ein Zähler, der normalerweise bei 0 beginnt. Solange `i` kleiner als 100 ist, wird der Code innerhalb der `{}` ausgeführt. `i = i + 1` gibt an, wie groß die Zählschritte sind:
+
+```
+for (let i = 0; i < 100; i = i + 1) {
+  rect(0, 0, 100, 100);
+}
+```
+
+Von Dan Shiffman gibt es dazu ebenfalls ein [Youtube Tutorial](https://www.youtube.com/watch?v=cnRD9o6odjk)
+
+#### While Loop
+
+Eine while-Schleife ist eine Art von Schleife, die einen Codeblock wiederholt, solange eine bestimmte Bedingung erfüllt ist. While-Schleifen sind ideal, wenn wir Code eine unbekannte Anzahl von Malen wiederholen wollen. 
+
+```
+while(boolean expression){
+    // code to execute while the condition is true
+}
+```
+
+Wenn der boolesche Ausdruck als wahr bewertet wird, wird der Code innerhalb der Schleife ausgeführt. Sobald der boolesche Ausdruck als falsch bewertet wird, verlässt der Computer die while-Schleife und fährt mit dem Programm fort. 
 
 ### Übung 4: Datensatz Array
 ![schweiz](img/schweiz.jpg)
