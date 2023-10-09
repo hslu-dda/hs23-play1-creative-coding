@@ -1,15 +1,18 @@
 # HS23 Play 1: Creative Coding
 
-Repository for the Creative Coding course in the modul Play 1 w/ Gordan Savičić & Max Frischknecht
+Repository für den Creative Coding Kurs im Modul Play 1 mit Gordan Savičić & Max Frischknecht
+6.-8. November 2023
+
+Im Kurs Creative Coding schreibt ihr eure ersten kleinen Programme um einen visuellen Output zu generieren. Ihr nutzt dazu P5js, Javascript-Library für Creative Coding, mit dem Schwerpunkt, das Programmieren für Künstler, Designer, Pädagogen, Anfänger und alle anderen zugänglich zu machen. Für mehr Info's zu P5js, schau dir die [Webseite](https://p5js.org/) an.
 
 ## Day 1
 
 ### Kickoff
 
-  - Erstelle einen Account bei [p5js](https://editor.p5js.org/)
-  - Schreibe diese Zeile ```line(0,0,100,100);``` in Zeile 7 vor dem ```}```
+  - Um gleich loslegen zu können nutzen wir den von P5 zur Verfügung gestellten Online-Editor. Erstelle dazu [hier](https://editor.p5js.org/) einen Account.
+  - Schreibe deine erste Zeile Code: Ergänze ```line(0,0,100,100);``` in Zeile 7 vor dem ```}```
+  - Was beschreiben die vier Parameter von `line` innherhalb der Klammern? Seht euch dazu auch die [Online-Referenz](https://p5js.org/reference/#/p5/line) an. Eine solche Referenz existiert für jede Funktion die P5 bietet.
   - Kannst du den Code ergänzen, damit ein X angezeigt wird?
-  - Was beschreiben diese vier Parameter? Seht euch dazu die [Online-Referenz](https://p5js.org/reference/#/p5/line) an.
   - Könnt ihr einen Kreis in die Mitte der Zeichenfläche setzen? Färbt den Kreis in einer anderen Farbe ein. 
 
 ### Übung 1: Selbstporträt
