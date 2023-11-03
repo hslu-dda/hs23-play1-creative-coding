@@ -30,12 +30,6 @@ Zeichnet euch selbst in P5js! Don’t go for realistic, konzentriert euch auf ei
 
 Geht alles etwas schnell? Wir können euch die Youtube-Tutorials von Dan Shiffmann ans Herz legen. [Hier](https://www.youtube.com/watch?v=c3TeLi6Ns1E&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&t=0s) gibts eines zu Formen, Farben und Zeichnen in P5.
 
-### Übung 2: 10Print
-
-![goto10](img/goto10.gif)
-
-10 Print ist ein bekanntes [Buch](https://10print.org/) in der Creative Coding Community welches die Möglichkeiten einer einzelnen Zeile Code aus künstlerischer Perspektive zeigt. Eure Aufgabe ist es nun, eine neue Version des Klassikers “10 PRINT” zu coden. Ihr braucht dazu `line()`, Variablen, `random()` sowie die für die Programmierung sehr wichtigen **if/else Statements**.
-
 #### Variablen
 
 Variablen sind ein zentraler Bestandteil jeder Programmiersprache. Mittels einer Variable kann man den Wert 1x festlegen um in dann an verschiedenen Orten im Programm zu verwenden. Dadurch wird es einfacher diesen Wert nachträglich zu verändern. Hier ein Beispiel wie man eine Variable definiert.
@@ -106,13 +100,13 @@ if(maximum == 100) {
 }
 ```
 
+### Übung 2: 10Print
+
+![goto10](img/goto10.gif)
+
+10 Print ist ein bekanntes [Buch](https://10print.org/) in der Creative Coding Community welches die Möglichkeiten einer einzelnen Zeile Code aus künstlerischer Perspektive zeigt. Eure Aufgabe ist es nun, eine neue Version des Klassikers “10 PRINT” zu coden. Ihr braucht dazu `line()`, Variablen, `random()` sowie die für die Programmierung sehr wichtigen **if/else Statements**.
+
 ## Day 2
-
-### Übung 3: Generatives Muster
-
-![muster](img/loop.png)
-
-Aufbauend auf den Funktionen der Schlaufe (`for`, `while`) erstellt ihr ein generatives Musters welches ihr anschliessend mittels `save()` exportiert.
 
 #### For Loop 
 
@@ -138,6 +132,11 @@ while(boolean expression){
 
 Wenn der boolesche Ausdruck als wahr bewertet wird, wird der Code innerhalb der Schleife ausgeführt. Sobald der boolesche Ausdruck als falsch bewertet wird, verlässt der Computer die while-Schleife und fährt mit dem Programm fort. 
 
+### Übung 3: Generatives Muster
+
+![muster](img/loop.png)
+
+Aufbauend auf den Funktionen der Schlaufe (`for`, `while`) erstellt ihr ein generatives Musters welches ihr anschliessend mittels `save()` exportiert.
 
 #### Save & Export
 
