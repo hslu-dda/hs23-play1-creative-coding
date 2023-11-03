@@ -63,6 +63,8 @@ size = size * 2 // nun ist size 300
 size = size / 2 // nun ist size wieder 150
 ```
 
+Sketch: [Bewegte Ellipse](https://editor.p5js.org/ritzdank/sketches/auAN2lb8a)
+
 ##### Vorgegebene Variablen
 
 Es gibt einige Variablen welche P5 euch automatisch zur Verfügung stellt:
@@ -100,11 +102,25 @@ if(maximum == 100) {
 }
 ```
 
+Coding Train erklärt es in diesem [Video](https://www.youtube.com/watch?v=1Osb_iGDdjk) im Detail
+
 ### Übung 2: 10Print
 
 ![goto10](img/goto10.gif)
 
 10 Print ist ein bekanntes [Buch](https://10print.org/) in der Creative Coding Community welches die Möglichkeiten einer einzelnen Zeile Code aus künstlerischer Perspektive zeigt. Eure Aufgabe ist es nun, eine neue Version des Klassikers “10 PRINT” zu coden. Ihr braucht dazu `line()`, Variablen, `random()` sowie die für die Programmierung sehr wichtigen **if/else Statements**.
+
+Mit diesem Code könnt ihr bereits ein Zufallsgenerator erstellen, der wie ein Münz-Werf Algorithmus funktioniert:
+
+```js
+let zufall = random();
+  if (zufall < 0.5) {
+    print("yes")
+  }
+  else {
+    print("no")
+  }
+```
 
 ## Day 2
 
@@ -145,6 +161,8 @@ Es gibt verschiedene Wege um die Bilder welche ihr in P5js kreiert zu exportiere
 ```js
 save('myCanvas.jpg');
 ```
+
+Mit dieser [Library](https://github.com/zenozeng/p5.js-svg) kann man auch direkt SVG (Vektor-basierte) Files exportieren. Hier ein [Beispiel-Sketch](https://editor.p5js.org/ritzdank/sketches/Qs7CHQnJV).
 
 ### Übung 4: Datensatz Array
 
