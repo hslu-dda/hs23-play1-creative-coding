@@ -4,6 +4,14 @@ Repository für den «Creative Coding» Kurs im Modul Play 1 mit Gordan Saviči�
 
 Im Kurs «Creative Coding» schreibt ihr eure ersten kleinen Programme um einen visuellen Output zu generieren. Ihr nutzt dazu P5js, eine Javascript-Library für Creative Coding, mit dem Schwerpunkt, das Programmieren für Künstler, Designer, Pädagogen, Anfänger und alle anderen zugänglich zu machen. Für mehr Info's zu P5js, schau dir die [Webseite](https://p5js.org/) an.
 
+## Kurzplan
+
+  - Montag vormittag übung 1 (Gordan)
+  - Montag nachmittag übung 2 (Max)
+  - Di vormittag - Arrays übung 3 (Gordan)
+  - Di nachmittag - CSV übung 4 (Max)
+  - Mi Projektarbeit
+
 ## Day 1
 
 ### Kickoff
@@ -22,7 +30,7 @@ Im Kurs «Creative Coding» schreibt ihr eure ersten kleinen Programme um einen 
 Zeichnet euch selbst in P5js! Don’t go for realistic, konzentriert euch auf ein markantes Detail. Alles ist erlaubt. Dadurch lernt ihr die folgenden grundlegenden Techniken von P5: 
 
 - Umgang mit dem Koordinaten System
-- Grundstruktur eines Programmes mit `setup` und `draw`)
+- Grundstruktur eines Programmes mit `setup` und `draw`
 - Zeichnen mit Formen (`rect`, `ellipse`, u.a.)
 - Umgang mit Farben und Konturen (`fill`, `stroke`, `strokeWeight`, `noFill`, `noStroke`)
 - Verwenden von Variablen für Zahlen- und Farbwerte (`let x = 10;`)
@@ -32,7 +40,7 @@ Geht alles etwas schnell? Wir können euch die Youtube-Tutorials von Dan Shiffma
 
 #### Variablen
 
-Variablen sind ein zentraler Bestandteil jeder Programmiersprache. Mittels einer Variable kann man den Wert 1x festlegen um in dann an verschiedenen Orten im Programm zu verwenden. Dadurch wird es einfacher diesen Wert nachträglich zu verändern. Hier ein Beispiel wie man eine Variable definiert.
+Variablen sind ein zentraler Bestandteil jeder Programmiersprache. Mittels einer Variable kann man den Wert einmal festlegen um in dann an verschiedenen Orten im Programm zu verwenden. Dadurch wird es einfacher diesen Wert nachträglich zu verändern. Hier ein Beispiel wie man eine Variable definiert.
 
 ```js
 let meineVariable; // definiere eine "leere" Variable mit dem namen "meineVariable" (bis auf ein paar Ausnahmen frei wählbar)
@@ -85,10 +93,9 @@ let xRan = random(0, 100)
 let yRan = random(0, height)
 ```
 
-#### If/Else Statements
+#### If/else Statements
 
-If/Else Statements kommen in den meisten Programmiersprachen vor und sind ein zentrales Konzept. Im Kern geht es darum einen Teil des Codes nur auszuführen wenn eine Bedingung erfüllt ist, und, je nach dem ob Gewünscht, wenn die Bedingung nicht erfüllt ist, anderen Code ausführen.
-
+If/else Statements kommen in den meisten Programmiersprachen vor und sind ein zentrales Konzept. Im Kern geht es darum einen Teil des Codes nur auszuführen wenn eine Bedingung erfüllt ist, und, je nach dem ob Gewünscht, wenn die Bedingung nicht erfüllt ist, anderen Code ausführen.
 
 ```js
 let maximum = 100;
@@ -104,7 +111,7 @@ if(maximum == 100) {
 
 Coding Train erklärt es in diesem [Video](https://www.youtube.com/watch?v=1Osb_iGDdjk) im Detail
 
-### Übung 2: 10Print
+### Übung 2: 10 Print
 
 ![goto10](img/goto10.gif)
 
@@ -113,20 +120,20 @@ Coding Train erklärt es in diesem [Video](https://www.youtube.com/watch?v=1Osb_
 Mit diesem Code könnt ihr bereits ein Zufallsgenerator erstellen, der wie ein Münz-Werf Algorithmus funktioniert:
 
 ```js
-let zufall = random();
-  if (zufall < 0.5) {
-    print("yes")
-  }
-  else {
-    print("no")
-  }
+let zufall = random(); // erzeugt eine Zufallszahl zwischen 0 und 1
+if (zufall < 0.5) {
+  print("yes")
+}
+else {
+  print("no")
+}
 ```
 
 ## Day 2
 
 #### For Loop 
 
-Wenn du viele ähnliche Operationen auf einmal erledigen wollen, ist die "for-Schleife" das Mittel der Wahl. `let i` ist ein Zähler, der normalerweise bei 0 beginnt. Solange `i` kleiner als 100 ist, wird der Code innerhalb der `{}` ausgeführt. `i = i + 1` gibt an, wie groß die Zählschritte sind:
+Wenn wir viele ähnliche Operationen auf einmal erledigen wollen, ist die "for-Schleife" das Mittel der Wahl. `let i` ist ein Zähler, der normalerweise bei 0 beginnt. Solange `i` kleiner als 100 ist, wird der Code innerhalb der `{}` ausgeführt. `i = i + 1` gibt an, wie groß die Zählschritte sind:
 
 ```js
 for (let i = 0; i < 100; i = i + 1) {
@@ -148,11 +155,43 @@ while(boolean expression){
 
 Wenn der boolesche Ausdruck als wahr bewertet wird, wird der Code innerhalb der Schleife ausgeführt. Sobald der boolesche Ausdruck als falsch bewertet wird, verlässt der Computer die while-Schleife und fährt mit dem Programm fort. 
 
-### Übung 3: Generatives Muster
+#### Arrays / Listen
 
-![muster](img/loop.png)
+Ein Array ist eine Liste von Variablen. Ein Array ist dazu da, inhaltlich zusammen gehörenden Variablen gemeinsam zu verwalten. Jeder Eintrag, welcher in einem Array gespeichert ist, wird typischerweise als Element bezeichnet und hat einen Index, der seine Position definiert. Das erste Element innerhalb eines Arrays hat den Index 0, das zweite hat den Index 1 und so weiter; das letzte Element hat den Index gleich der Anzahl aller Elemente minus 1.
 
-Aufbauend auf den Funktionen der Schlaufe (`for`, `while`) erstellt ihr ein generatives Musters welches ihr anschliessend mittels `save()` exportiert.
+```js
+let liste = [0, 20, 49, 2, 77, 180];
+print(liste[0]); // rufe das erste element der liste ab
+print(liste[5]); // rufe das letzte index 5,  das sechste
+```
+
+Möchte man ein Array mit einem Loop auslesen, kann man dies mit einer `for` Schleife tun:
+
+```js
+for (let i = 0; i < liste.length; i++) {
+  console.log(liste[i]);
+}
+```
+
+Sehe dir den [Starter sketch](https://editor.p5js.org/ritzdank/sketches/cCpF-9n7c) dazu an und versuche die Werte der Liste zu ändern bzw. die Visualisierung.
+
+### Übung 3: Datensatz Array
+
+![schweiz](img/schweiz.jpg)
+
+  - Aufgabe: Erstellt zwei Arrays/Listen (mit Nummern oder Text) und visualisiert diese. Probiert andere Visualisierungsformen aus (ellipse, line, point, arc, etc.) bzw. Gegenüberstellungen wie hier im Bild (Schweiz in Bild und Zahl)
+  - Input [Arrays Teil 1](https://tube.switch.ch/videos/52a76917), [Arrays Teil 2](https://tube.switch.ch/videos/f3d6bdb1), [Arrays Teil 3](https://tube.switch.ch/videos/dfebe960)
+  - [Code](https://editor.p5js.org/ritzdank/sketches/cCpF-9n7c)
+
+### Übung 4: Datensatz CSV
+![csv](img/csv.png)
+  - Aufgabe: Ausgehend vom Beispiel “Daten CSV” versucht einen der beiden Parameter (oder beide, km/ feeling) zu visualisieren. Ihr könnt den Datensatz erweitern, verändern oder auf euren eigenen Datensatz anpassen. Exportiert euren Sketch als SVG oder PNG.
+  - [Starter-Code](https://editor.p5js.org/ritzdank/sketches/wd1YuitBP)
+  - Andere Beispiele: [Average Temperature CH](https://editor.p5js.org/ritzdank/sketches/gshTXPNA9)
+  
+## Day 3
+
+  - Individuelle Projektbetreuung
 
 #### Save & Export
 
@@ -163,24 +202,6 @@ save('myCanvas.jpg');
 ```
 
 Mit dieser [Library](https://github.com/zenozeng/p5.js-svg) kann man auch direkt SVG (Vektor-basierte) Files exportieren. Hier ein [Beispiel-Sketch](https://editor.p5js.org/ritzdank/sketches/Qs7CHQnJV).
-
-### Übung 4: Datensatz Array
-
-![schweiz](img/schweiz.jpg)
-
-  - Aufgabe: Erstellt zwei Arrays/Listen (mit Nummern oder Text) und visualisiert diese. Probiert andere Visualisierungsformen aus (ellipse, line, point, arc, etc.) bzw. Gegenüberstellungen wie hier im Bild (Schweiz in Bild und Zahl)
-  - Input [Arrays Teil 1](https://tube.switch.ch/videos/52a76917), [Arrays Teil 2](https://tube.switch.ch/videos/f3d6bdb1), [Arrays Teil 3](https://tube.switch.ch/videos/dfebe960)
-  - [Code](XXX)
-
-### Übung 5: Datensatz CSV
-![csv](img/csv.png)
-  - Aufgabe: Ausgehend vom Beispiel “Daten CSV” versucht einen der beiden Parameter (oder beide, km/ feeling) zu visualisieren. Ihr könnt den Datensatz erweitern, verändern oder auf euren eigenen Datensatz anpassen. Exportiert euren Sketch als SVG oder PNG.
-  - [Starter-Code](https://editor.p5js.org/ritzdank/sketches/wd1YuitBP)
-  - Andere Beispiele: [Average Temperature CH](https://editor.p5js.org/ritzdank/sketches/gshTXPNA9), [Export als SVG](https://editor.p5js.org/ritzdank/sketches/Qs7CHQnJV)
-  
-## Day 3
-
-  - Individuelle Projektbetreuung
 
 ## Final project Deliverable
 
