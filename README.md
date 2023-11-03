@@ -40,7 +40,7 @@ Geht alles etwas schnell? Wir können euch die Youtube-Tutorials von Dan Shiffma
 
 Variablen sind ein zentraler Bestandteil jeder Programmiersprache. Mittels einer Variable kann man den Wert 1x festlegen um in dann an verschiedenen Orten im Programm zu verwenden. Dadurch wird es einfacher diesen Wert nachträglich zu verändern. Hier ein Beispiel wie man eine Variable definiert.
 
-```
+```js
 let meineVariable; // definiere eine "leere" Variable mit dem namen "meineVariable" (bis auf ein paar Ausnahmen frei wählbar)
 meineVariable = 10 // den Wert 10 der Variable zuweisen
 
@@ -49,7 +49,7 @@ let neueVariable = 20 // Variable definieren und direkt einen Wert zuweisen
 
 Hier ist ein einfaches Beispiel wie eine Variable verwendet werden kann um ein Rechteck an Position `10`, `10` mit einer Breite und Höhe von `100` Pixel zu zeichnen.
 
-```
+```js
 let size = 100;
 let x = 10;
 let y = 10;
@@ -57,7 +57,7 @@ let y = 10;
 rect(x, y size, size)
 ```
 
-##### Opertoren
+##### Operatoren
 
 Handelt es sich bei der gespeicherten Variable um eine Zahl kann man einfache mathematische Operationen vornehmen mit `+`, `-`, `*` und `/`. Hier ist ein Beispiel: 
 
@@ -116,7 +116,7 @@ Aufbauend auf den Funktionen der Schlaufe (`for`, `while`) erstellt ihr ein gene
 
 #### For Loop 
 
-Wenn du viele ähnliche Opertationen auf einmal erledigen wollen, ist die "for-Schleife" das Mittel der Wahl. `let i` ist ein Zähler, der normalerweise bei 0 beginnt. Solange `i` kleiner als 100 ist, wird der Code innerhalb der `{}` ausgeführt. `i = i + 1` gibt an, wie groß die Zählschritte sind:
+Wenn du viele ähnliche Operationen auf einmal erledigen wollen, ist die "for-Schleife" das Mittel der Wahl. `let i` ist ein Zähler, der normalerweise bei 0 beginnt. Solange `i` kleiner als 100 ist, wird der Code innerhalb der `{}` ausgeführt. `i = i + 1` gibt an, wie groß die Zählschritte sind:
 
 ```
 for (let i = 0; i < 100; i = i + 1) {
