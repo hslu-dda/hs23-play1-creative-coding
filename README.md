@@ -1,14 +1,8 @@
 # HS23 Play 1: Creative Coding
 
-Repository für den Creative Coding Kurs im Modul Play 1 mit Gordan Savičić & Max Frischknecht, 6.-8. November 2023, HSLU Data Design + Art
+Repository für den «Creative Coding» Kurs im Modul Play 1 mit Gordan Savičić & Max Frischknecht, 6.-8. November 2023, HSLU Data Design + Art
 
-Im Kurs Creative Coding schreibt ihr eure ersten kleinen Programme um einen visuellen Output zu generieren. Ihr nutzt dazu P5js, Javascript-Library für Creative Coding, mit dem Schwerpunkt, das Programmieren für Künstler, Designer, Pädagogen, Anfänger und alle anderen zugänglich zu machen. Für mehr Info's zu P5js, schau dir die [Webseite](https://p5js.org/) an.
-
-**Interne Notes / Fragen**
-
-- Wo werden Datentypen mit Variablen eingeführt (Int, Float, Colors, Boolean...)
-- Scope von Variablen, ev. auch var/let erwähnen
-- Wo erklähren die dir Grundstruktur eines Programmes mit `setup` und `draw`?
+Im Kurs «Creative Coding» schreibt ihr eure ersten kleinen Programme um einen visuellen Output zu generieren. Ihr nutzt dazu P5js, eine Javascript-Library für Creative Coding, mit dem Schwerpunkt, das Programmieren für Künstler, Designer, Pädagogen, Anfänger und alle anderen zugänglich zu machen. Für mehr Info's zu P5js, schau dir die [Webseite](https://p5js.org/) an.
 
 ## Day 1
 
@@ -28,11 +22,11 @@ Im Kurs Creative Coding schreibt ihr eure ersten kleinen Programme um einen visu
 Zeichnet euch selbst in P5js! Don’t go for realistic, konzentriert euch auf ein markantes Detail. Alles ist erlaubt. Dadurch lernt ihr die folgenden grundlegenden Techniken von P5: 
 
 - Umgang mit dem Koordinaten System
-- (ev hier oder schon oben?: Grundstruktur eines Programmes mit `setup` und `draw`)
+- Grundstruktur eines Programmes mit `setup` und `draw`)
 - Zeichnen mit Formen (`rect`, `ellipse`, u.a.)
 - Umgang mit Farben und Konturen (`fill`, `stroke`, `strokeWeight`, `noFill`, `noStroke`)
 - Verwenden von Variablen für Zahlen- und Farbwerte (`let x = 10;`)
-- Verwenden von Kommentaren mit `// mein Kommentar`
+- Verwenden von Kommentaren mit `// dein Kommentar`
 
 Geht alles etwas schnell? Wir können euch die Youtube-Tutorials von Dan Shiffmann ans Herz legen. [Hier](https://www.youtube.com/watch?v=c3TeLi6Ns1E&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&t=0s) gibts eines zu Formen, Farben und Zeichnen in P5.
 
@@ -40,27 +34,27 @@ Geht alles etwas schnell? Wir können euch die Youtube-Tutorials von Dan Shiffma
 
 ![goto10](img/goto10.gif)
 
-10 Print ist ein [bekanntes Buch](https://10print.org/) in der Creative Coding Community welches die Möglichkeiten einer einzelnen Zeile Code aus künstlerischer Perspektive diskutiert. Eure Aufgabe ist es nun eine neue Version des Klassikers “10 PRINT” zu coden. Ihr braucht dazu `line()`, Variablen, `random()` sowie die für die Programmierung sehr wichtigen **if/else Statements**.
+10 Print ist ein bekanntes [Buch](https://10print.org/) in der Creative Coding Community welches die Möglichkeiten einer einzelnen Zeile Code aus künstlerischer Perspektive zeigt. Eure Aufgabe ist es nun, eine neue Version des Klassikers “10 PRINT” zu coden. Ihr braucht dazu `line()`, Variablen, `random()` sowie die für die Programmierung sehr wichtigen **if/else Statements**.
 
 #### Variablen
 
-Variablen sind ein zentraler Bestandteil jeder Programmiersprache. Mittels einer Variable kann man den Wert 1x festlegen, aber an verschiedenen Orten im Programm verwenden. Hier ein Beispiel wie man eine Variable definiert.
+Variablen sind ein zentraler Bestandteil jeder Programmiersprache. Mittels einer Variable kann man den Wert 1x festlegen um in dann an verschiedenen Orten im Programm zu verwenden. Dadurch wird es einfacher diesen Wert nachträglich zu verändern. Hier ein Beispiel wie man eine Variable definiert.
 
 ```
-let meineVariable; // definiere eine "leere" Variable
+let meineVariable; // definiere eine "leere" Variable mit dem namen "meineVariable" (bis auf ein paar Ausnahmen frei wählbar)
 meineVariable = 10 // den Wert 10 der Variable zuweisen
 
 let neueVariable = 20 // Variable definieren und direkt einen Wert zuweisen
 ```
 
-Hier ist ein einfaches Beispiel wie eine Variable verwendet werden kann. 
+Hier ist ein einfaches Beispiel wie eine Variable verwendet werden kann um ein Rechteck an Position `10`, `10` mit einer Breite und Höhe von `100` Pixel zu zeichnen.
 
 ```
 let size = 100;
 let x = 10;
 let y = 10;
 
-rect(x, y size, size) // Zeichnet ein Rechteck an Position 10, 10 mit einer Breite und Höhe von 100px
+rect(x, y size, size)
 ```
 
 ##### Opertoren
@@ -79,17 +73,20 @@ size = size / 2 // nun ist size wieder 150
 
 Es gibt einige Variablen welche P5 euch automatisch zur Verfügung stellt:
 
-- `mouseX` und `mouseY` beinhalten die Position eurer Maus. Versuche einmal eine Form zu zeichnen und ersetze x und y durch diese Variablen, cool oder?
+- `mouseX` und `mouseY` beinhalten die Position eurer Maus. Versuche einmal eine Form zu zeichnen und ersetze `x` und `y` durch diese Variablen, cool oder?
 - `width` und `height` beinhalten die Dimensionen eures Sketches, also die Zahlen welche ihr im Befehl `createCanvas()` festlegt. Diese Variablen sind sehr nützlich um bspw. mit einem Grid zu arbeiten oder Objekte bspw. in der Mitte zu positionieren. 
 - Für weitere Info's zu Variablen sieh dir [dieses Dokument]((https://github.com/fleshgordo/LaboCreativeCoding/blob/main/02_variables.md)) sowie [dieses Video](https://tube.switch.ch/videos/8c793d97) von Gordan an.
 
 #### Random
 
-Normalerweise braucht man ein bisschen Zufall, damit die Resultate eurer Programme überraschend werden 🔥. Dafür gibt es u.a. den Befehl `random()` welcher euch eine zufällige Zahl innerhalb eines von euch festgelegten Rahmens erzeugt. 
+Normalerweise braucht man ein bisschen Zufall, damit die Resultate eurer Programme 🔥 werden. Dafür gibt es u.a. den Befehl `random()` welcher euch eine zufällige Zahl innerhalb eines von euch festgelegten Rahmens erzeugt. 
 
 ```
-let xRan = random(0, 100) // zufällige Zahl zwischen 1 und 100
-let yRan = random(0, height) // zufällige Zahl zwischen 1 und der Höhe eures Sketches
+// zufällige Zahl zwischen 1 und 100
+let xRan = random(0, 100)
+
+// zufällige Zahl zwischen 1 und der Höhe eures Sketches
+let yRan = random(0, height)
 ```
 
 #### If/Else Statements
