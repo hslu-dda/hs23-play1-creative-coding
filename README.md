@@ -61,7 +61,7 @@ rect(x, y size, size)
 
 Handelt es sich bei der gespeicherten Variable um eine Zahl kann man einfache mathematische Operationen vornehmen mit `+`, `-`, `*` und `/`. Hier ist ein Beispiel: 
 
-```
+```js
 let size = 100 // initialer Wert
 size = size + 100 // nun ist size 200
 size = size - 50 // nun ist size 150
@@ -81,7 +81,7 @@ Es gibt einige Variablen welche P5 euch automatisch zur Verfügung stellt:
 
 Normalerweise braucht man ein bisschen Zufall, damit die Resultate eurer Programme 🔥 werden. Dafür gibt es u.a. den Befehl `random()` welcher euch eine zufällige Zahl innerhalb eines von euch festgelegten Rahmens erzeugt. 
 
-```
+```js
 // zufällige Zahl zwischen 1 und 100
 let xRan = random(0, 100)
 
@@ -94,7 +94,7 @@ let yRan = random(0, height)
 If/Else Statements kommen in den meisten Programmiersprachen vor und sind ein zentrales Konzept. Im Kern geht es darum einen Teil des Codes nur auszuführen wenn eine Bedingung erfüllt ist, und, je nach dem ob Gewünscht, wenn die Bedingung nicht erfüllt ist, anderen Code ausführen.
 
 
-```
+```js
 let maximum = 100;
 
 if(maximum == 100) {
@@ -118,7 +118,7 @@ Aufbauend auf den Funktionen der Schlaufe (`for`, `while`) erstellt ihr ein gene
 
 Wenn du viele ähnliche Operationen auf einmal erledigen wollen, ist die "for-Schleife" das Mittel der Wahl. `let i` ist ein Zähler, der normalerweise bei 0 beginnt. Solange `i` kleiner als 100 ist, wird der Code innerhalb der `{}` ausgeführt. `i = i + 1` gibt an, wie groß die Zählschritte sind:
 
-```
+```js
 for (let i = 0; i < 100; i = i + 1) {
   rect(0, 0, 100, 100);
 }
@@ -130,7 +130,7 @@ Von Dan Shiffman gibt es dazu ebenfalls ein [Youtube Tutorial](https://www.youtu
 
 Eine while-Schleife ist eine Art von Schleife, die einen Codeblock wiederholt, solange eine bestimmte Bedingung erfüllt ist. While-Schleifen sind ideal, wenn wir Code eine unbekannte Anzahl von Malen wiederholen wollen. 
 
-```
+```js
 while(boolean expression){
     // code to execute while the condition is true
 }
@@ -143,9 +143,8 @@ Wenn der boolesche Ausdruck als wahr bewertet wird, wird der Code innerhalb der 
 
 Es gibt verschiedene Wege um die Bilder welche ihr in P5js kreiert zu exportieren, einer davon ist die Funktion `save()` mit welcher ihr den gesammten Canvas / Sketch als Bild exportieren könnt. 
 
-```
-let cnv = createCanvas(300, 300);
-save(cnv, 'myCanvas.jpg');
+```js
+save('myCanvas.jpg');
 ```
 
 ### Übung 4: Datensatz Array
