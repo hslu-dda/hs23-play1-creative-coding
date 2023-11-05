@@ -13,7 +13,7 @@ Im Kurs «Creative Coding» schreibt ihr eure ersten kleinen Programme um einen 
 
 **Dienstag**
 
-  - Vormittag: Übung 3, mit Arrays arbeiten, CSV Daten importieren (Gordan)
+  - Vormittag: Übung 3 & 4, mit Arrays arbeiten, CSV Daten importieren (Gordan)
   - Nachmittag: Projektarbeit & individuelle Betreuung (Max)
   
 **Mittwoch**
