@@ -4,17 +4,26 @@ Repository für den «Creative Coding» Kurs im Modul Play 1 mit Gordan Saviči�
 
 Im Kurs «Creative Coding» schreibt ihr eure ersten kleinen Programme um einen visuellen Output zu generieren. Ihr nutzt dazu P5js, eine Javascript-Library für Creative Coding, mit dem Schwerpunkt, das Programmieren für Künstler, Designer, Pädagogen, Anfänger und alle anderen zugänglich zu machen. Für mehr Info's zu P5js, schau dir die [Webseite](https://p5js.org/) an.
 
-## Kurzplan
+## Übersicht
 
-  - Montag vormittag übung 1 (Gordan)
-  - Montag nachmittag übung 2 (Max)
-  - Di vormittag - Arrays übung 3 (Gordan)
-  - Di nachmittag - CSV übung 4 (Max)
-  - Mi Projektarbeit
+**Montag**
 
-## Day 1
+  - Vormittag: Einführung, Übung 1 «Selbstportrait» (Gordan)
+  - Nachmittag: Übung 2 «10Print» (Max)
 
-### Kickoff
+**Dienstag**
+
+  - Vormittag: Übung 3, mit Arrays arbeiten, CSV Daten importieren (Gordan)
+  - Nachmittag: Projektarbeit & individuelle Betreuung (Max)
+  
+**Mittwoch**
+
+  - Vormittag: Projektarbeit & individuelle Betreuung (Gordan & Max)
+  - Nachmittag: Kurzes Show & Tell, Projektarbeit, Dokumentation & individuelle Betreuung (Gordan & Max)
+
+## Day 1, Montag
+
+### Vormittag: Kick Off & Übung 1 «Selbstportrait»
 
   - Um gleich loslegen zu können nutzen wir den von P5 zur Verfügung gestellten Online-Editor. Erstelle dazu [hier](https://editor.p5js.org/) einen Account.
   - Schreibe deine erste Zeile Code: Ergänze ```line(0,0,100,100);``` in Zeile 7 vor dem ```}```
@@ -22,10 +31,7 @@ Im Kurs «Creative Coding» schreibt ihr eure ersten kleinen Programme um einen 
   - Kannst du den Code ergänzen, damit ein X angezeigt wird?
   - Könnt ihr einen Kreis in die Mitte der Zeichenfläche setzen? Färbt den Kreis in einer anderen Farbe ein.
 
-
-### Übung 1: Selbstporträt
-
-![Selbstporträt](img/selfportrait.png)
+![Selbstportrait](img/selfportrait.png)
 
 Zeichnet euch selbst in P5js! Don’t go for realistic, konzentriert euch auf ein markantes Detail. Alles ist erlaubt. Dadurch lernt ihr die folgenden grundlegenden Techniken von P5: 
 
@@ -59,7 +65,7 @@ let y = 10;
 rect(x, y size, size)
 ```
 
-##### Operatoren
+#### Operatoren
 
 Handelt es sich bei der gespeicherten Variable um eine Zahl kann man einfache mathematische Operationen vornehmen mit `+`, `-`, `*` und `/`. Hier ist ein Beispiel: 
 
@@ -73,7 +79,7 @@ size = size / 2 // nun ist size wieder 150
 
 Sketch: [Bewegte Ellipse](https://editor.p5js.org/ritzdank/sketches/auAN2lb8a)
 
-##### Vorgegebene Variablen
+#### Vorgegebene Variablen
 
 Es gibt einige Variablen welche P5 euch automatisch zur Verfügung stellt:
 
@@ -111,11 +117,11 @@ if(maximum == 100) {
 
 Coding Train erklärt es in diesem [Video](https://www.youtube.com/watch?v=1Osb_iGDdjk) im Detail
 
-### Übung 2: 10 Print
+### Nachmittag, Übung 2 «10Print»
 
 ![goto10](img/goto10.gif)
 
-10 Print ist ein bekanntes [Buch](https://10print.org/) in der Creative Coding Community welches die Möglichkeiten einer einzelnen Zeile Code aus künstlerischer Perspektive zeigt. Eure Aufgabe ist es nun, eine neue Version des Klassikers “10 PRINT” zu coden. Ihr braucht dazu `line()`, Variablen, `random()` sowie die für die Programmierung sehr wichtigen **if/else Statements**.
+10 Print ist ein bekanntes [Buch](https://10print.org/) in der Creative Coding Community welches die Möglichkeiten einer einzelnen [Zeile Code](https://www.youtube.com/watch?v=m9joBLOZVEo) aus künstlerischer Perspektive zeigt. Eure Aufgabe ist es nun, eine neue Version des Klassikers “10 PRINT” zu coden. Ihr braucht dazu `line()`, Variablen, `random()` sowie die für die Programmierung sehr wichtigen **if/else Statements**.
 
 Mit diesem Code könnt ihr bereits ein Zufallsgenerator erstellen, der wie ein Münz-Werf Algorithmus funktioniert:
 
@@ -129,7 +135,9 @@ else {
 }
 ```
 
-## Day 2
+## Dienstag, Day 2
+
+### Vormittag: Loops, Arrays & CSV Daten
 
 #### For Loop 
 
@@ -175,7 +183,7 @@ for (let i = 0; i < liste.length; i++) {
 
 Sehe dir den [Starter sketch](https://editor.p5js.org/ritzdank/sketches/cCpF-9n7c) dazu an und versuche die Werte der Liste zu ändern bzw. die Visualisierung.
 
-### Übung 3: Datensatz Array
+#### Übung 3: Datensatz Array
 
 ![schweiz](img/schweiz.jpg)
 
@@ -183,7 +191,8 @@ Sehe dir den [Starter sketch](https://editor.p5js.org/ritzdank/sketches/cCpF-9n7
   - Input [Arrays Teil 1](https://tube.switch.ch/videos/52a76917), [Arrays Teil 2](https://tube.switch.ch/videos/f3d6bdb1), [Arrays Teil 3](https://tube.switch.ch/videos/dfebe960)
   - [Code](https://editor.p5js.org/ritzdank/sketches/cCpF-9n7c)
 
-### Übung 4: Datensatz CSV
+#### Übung 4: Datensatz CSV
+
 ![csv](img/csv.png)
   - Aufgabe: Ausgehend vom Beispiel “Daten CSV” versucht einen der beiden Parameter (oder beide, km/ feeling) zu visualisieren. Ihr könnt den Datensatz erweitern, verändern oder auf euren eigenen Datensatz anpassen. Exportiert euren Sketch als SVG oder PNG.
   - [Starter-Code](https://editor.p5js.org/ritzdank/sketches/wd1YuitBP)
@@ -203,9 +212,10 @@ save('myCanvas.jpg');
 
 Mit dieser [Library](https://github.com/zenozeng/p5.js-svg) kann man auch direkt SVG (Vektor-basierte) Files exportieren. Hier ein [Beispiel-Sketch](https://editor.p5js.org/ritzdank/sketches/Qs7CHQnJV).
 
-## Final project Deliverable
+## Final Project Deliverable
 
 Eine Visualisierung mit p5js und einem Datensatz welchen ihr im “Analogen Algorithmen” Teil mit Alain ausgearbeitet habt.
+
 - p5js Code + Screenshots (Final + Prozess)
 - Falls animiert - Screencast (30sec. mp4, 1080p)
 
