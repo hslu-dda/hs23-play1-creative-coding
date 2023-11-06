@@ -137,7 +137,7 @@ Coding Train erklärt es in diesem [Video](https://www.youtube.com/watch?v=1Osb_
 Mit diesem Code könnt ihr bereits ein Zufallsgenerator erstellen, der wie ein Münz-Werf Algorithmus funktioniert:
 
 ```js
-let zufall = random(); // erzeugt eine Zufallszahl zwischen 0 und 1
+let zufall = random(0, 1); // erzeugt eine Zufallszahl zwischen 0 und 1
 if (zufall < 0.5) {
   print("yes")
 }
@@ -145,6 +145,8 @@ else {
   print("no")
 }
 ```
+
+Hier ein [Link](https://editor.p5js.org/maxfrischknecht/sketches/39UZqOiP-) zum fertigen Sketch.
 
 ## Dienstag, Day 2
 
