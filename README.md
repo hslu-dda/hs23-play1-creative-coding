@@ -232,6 +232,18 @@ Eine Visualisierung mit p5js und einem Datensatz welchen ihr im “Analogen Algo
 
 ## References
 
+### Konzepte 
+
+- [Shapes & Drawing](https://www.youtube.com/watch?v=c3TeLi6Ns1E)
+- [Colors](https://www.youtube.com/watch?v=riiJTF5-N7c)
+- [Variables](https://www.youtube.com/watch?v=7A5tKW9HGoM)
+- [Conditionals (if/else)](https://www.youtube.com/watch?v=1Osb_iGDdjk)
+- [Random](https://www.youtube.com/watch?v=POn4cZ0jL-o)
+- [While & For Loops](https://www.youtube.com/watch?v=cnRD9o6odjk)
+
+
+### Generell
+
 - [Creative Coding Intro](https://github.com/fleshgordo/LaboCreativeCoding) by Gordan 
 - [Creative Coding class](https://creative-coding.decontextualize.com/) by A. Parish 
 - [p5 learn](https://p5js.org/learn/)
