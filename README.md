@@ -18,7 +18,7 @@ Im Kurs «Creative Coding» schreibt ihr eure ersten kleinen Programme um einen 
   
 **Mittwoch**
 
-  - Vormittag: Projektarbeit & individuelle Betreuung (Gordan & Max)
+  - Vormittag: Projektarbeit & individuelle Betreuung (Max)
   - Nachmittag: Kurzes Show & Tell, Projektarbeit, Dokumentation & individuelle Betreuung (Gordan & Max)
 
 ## Day 1, Montag
@@ -115,7 +115,18 @@ if(maximum == 100) {
 }
 ```
 
-Coding Train erklärt es in diesem [Video](https://www.youtube.com/watch?v=1Osb_iGDdjk) im Detail
+Ihr könnt auch Werte vergleich ob sie z. B. grösser oder kleiner sind:
+
+```js
+if (mouseX < width /2) {
+  background(0);
+}
+else {
+  background(255);
+}
+```
+
+Coding Train erklärt es in diesem [Video](https://www.youtube.com/watch?v=1Osb_iGDdjk) im Detail.
 
 ### Nachmittag, Übung 2 «10Print»
 
