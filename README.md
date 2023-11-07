@@ -221,7 +221,9 @@ Sehe dir den [Starter sketch](https://editor.p5js.org/ritzdank/sketches/cCpF-9n7
 
 ![csv](img/csv.png)
   - Aufgabe: Ausgehend vom Beispiel “Daten CSV” versucht einen der beiden Parameter (oder beide, km/ feeling) zu visualisieren. Ihr könnt den Datensatz erweitern, verändern oder auf euren eigenen Datensatz anpassen. Exportiert euren Sketch als SVG oder PNG.
-  - [Starter-Code](https://editor.p5js.org/ritzdank/sketches/wd1YuitBP)
+
+  - [Empty Example](https://editor.p5js.org/maxfrischknecht/sketches/IW5Z9YYsO)
+  - [Finished Example](https://editor.p5js.org/ritzdank/sketches/wd1YuitBP)
   - Andere Beispiele: [Average Temperature CH](https://editor.p5js.org/ritzdank/sketches/gshTXPNA9)
   
 ## Day 3
