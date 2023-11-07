@@ -185,7 +185,7 @@ for (let i = 0; i < 100; i = i + 1) {
 
 Von Dan Shiffman gibt es dazu ebenfalls ein [Youtube Tutorial](https://www.youtube.com/watch?v=cnRD9o6odjk)
 
-Kannst du eines dieser Bild mit einem Loop nachbauen?
+Kannst du eines dieser Bilder mit einem Loop nachbauen?
 
 ![fadegraphik](img/fadengraphik.png)
 
