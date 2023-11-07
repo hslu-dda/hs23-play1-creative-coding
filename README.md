@@ -262,6 +262,12 @@ Eine Visualisierung mit p5js und einem Datensatz welchen ihr im “Analogen Algo
 - [Working with APIs in Javascript](https://www.youtube.com/watch?v=rJaXOFfwGVw&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r)
 
 
+### Individuelles was Aufgetaucht ist
+
+- Werte umrechnen: [Die Map Funktion](https://www.youtube.com/watch?v=nicMAoW6u1g)
+- Objekte drehen: [translate, rotate, push & pop](https://www.youtube.com/watch?v=o9sgjuh-CBM)
+- Custom shapes: [vertex](https://www.youtube.com/watch?v=76fiD5DvzeQ)
+
 ### Generell
 
 - [Creative Coding Intro](https://github.com/fleshgordo/LaboCreativeCoding) by Gordan 
