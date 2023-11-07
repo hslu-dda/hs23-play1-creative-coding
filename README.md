@@ -255,6 +255,9 @@ Eine Visualisierung mit p5js und einem Datensatz welchen ihr im “Analogen Algo
 - [Conditionals (if/else)](https://www.youtube.com/watch?v=1Osb_iGDdjk)
 - [Random](https://www.youtube.com/watch?v=POn4cZ0jL-o)
 - [While & For Loops](https://www.youtube.com/watch?v=cnRD9o6odjk)
+- [Arrays](https://www.youtube.com/watch?v=VIQoUghHSxU)
+- [CSV](https://www.youtube.com/watch?v=RfMkdvN-23o)
+- [Working with APIs in Javascript](https://www.youtube.com/watch?v=rJaXOFfwGVw&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r)
 
 
 ### Generell
