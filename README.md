@@ -152,17 +152,7 @@ Hier ein [Link](https://editor.p5js.org/maxfrischknecht/sketches/39UZqOiP-) zum 
 
 ### Vormittag: Loops, Arrays & CSV Daten
 
-#### For Loop 
-
-Wenn wir viele ähnliche Operationen auf einmal erledigen wollen, ist die "for-Schleife" das Mittel der Wahl. `let i` ist ein Zähler, der normalerweise bei 0 beginnt. Solange `i` kleiner als 100 ist, wird der Code innerhalb der `{}` ausgeführt. `i = i + 1` gibt an, wie groß die Zählschritte sind:
-
-```js
-for (let i = 0; i < 100; i = i + 1) {
-  rect(0, 0, 100, 100);
-}
-```
-
-Von Dan Shiffman gibt es dazu ebenfalls ein [Youtube Tutorial](https://www.youtube.com/watch?v=cnRD9o6odjk)
+[Starter File](https://editor.p5js.org/ritzdank/sketches/jGv4ZocKS)
 
 #### While Loop
 
@@ -174,7 +164,30 @@ while(boolean expression){
 }
 ```
 
+```js
+while(x < width){
+    rect(x,0,10,40);
+    x = x + 20;
+}
+```
+
 Wenn der boolesche Ausdruck als wahr bewertet wird, wird der Code innerhalb der Schleife ausgeführt. Sobald der boolesche Ausdruck als falsch bewertet wird, verlässt der Computer die while-Schleife und fährt mit dem Programm fort. 
+
+#### For Loop 
+
+Wenn wir viele ähnliche Operationen auf einmal erledigen wollen, ist die "for-Schleife" das Mittel der Wahl. `let i` ist ein Zähler, der normalerweise bei 0 beginnt. Solange `i` kleiner als 100 ist, wird der Code innerhalb der `{}` ausgeführt. `i = i + 1` gibt an, wie groß die Zählschritte sind:
+
+```js
+for (let i = 0; i < 100; i = i + 1) {
+  rect(0, i * 10, 100, 5);
+}
+```
+
+Von Dan Shiffman gibt es dazu ebenfalls ein [Youtube Tutorial](https://www.youtube.com/watch?v=cnRD9o6odjk)
+
+Kannst du eines dieser Bild mit einem Loop nachbauen?
+
+![fadegraphik](img/fadengraphik.png)
 
 #### Arrays / Listen
 
@@ -194,7 +207,7 @@ for (let i = 0; i < liste.length; i++) {
 }
 ```
 
-Sehe dir den [Starter sketch](https://editor.p5js.org/ritzdank/sketches/cCpF-9n7c) dazu an und versuche die Werte der Liste zu ändern bzw. die Visualisierung.
+Sehe dir den [Starter sketch](https://editor.p5js.org/ritzdank/sketches/cCpF-9n7c) dazu an und versuche die Werte der Liste zu ändern bzw. die Visualisierung. Hierbei kann auch die [`map()` Funktion](https://p5js.org/reference/#/p5/map) hilfreich sein um Werte zu skalieren. 
 
 #### Übung 3: Datensatz Array
 
