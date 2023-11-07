@@ -209,7 +209,7 @@ for (let i = 0; i < liste.length; i++) {
 
 Sehe dir den [Starter sketch](https://editor.p5js.org/ritzdank/sketches/cCpF-9n7c) dazu an und versuche die Werte der Liste zu ändern bzw. die Visualisierung. Hierbei kann auch die [`map()` Funktion](https://p5js.org/reference/#/p5/map) hilfreich sein um Werte zu skalieren. 
 
-#### Übung 3: Datensatz Array
+### Übung 3: Datensatz Array
 
 ![schweiz](img/schweiz.jpg)
 
@@ -217,7 +217,7 @@ Sehe dir den [Starter sketch](https://editor.p5js.org/ritzdank/sketches/cCpF-9n7
   - Input [Arrays Teil 1](https://tube.switch.ch/videos/52a76917), [Arrays Teil 2](https://tube.switch.ch/videos/f3d6bdb1), [Arrays Teil 3](https://tube.switch.ch/videos/dfebe960)
   - [Code](https://editor.p5js.org/ritzdank/sketches/cCpF-9n7c)
 
-#### Übung 4: Datensatz CSV
+### Übung 4: Datensatz CSV
 
 ![csv](img/csv.png)
   - Aufgabe: Ausgehend vom Beispiel “Daten CSV” versucht einen der beiden Parameter (oder beide, km/ feeling) zu visualisieren. Ihr könnt den Datensatz erweitern, verändern oder auf euren eigenen Datensatz anpassen. Exportiert euren Sketch als SVG oder PNG.
