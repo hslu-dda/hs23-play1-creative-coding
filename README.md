@@ -217,7 +217,7 @@ Sehe dir den [Starter sketch](https://editor.p5js.org/ritzdank/sketches/cCpF-9n7
 
 ### Übung 4: Datensatz CSV
 
-Um Daten in P5js zu laden braucht ihr [preload()](https://p5js.org/reference/#/p5/preload) sowie [loadTable()](https://p5js.org/reference/#/p5/loadTable). **Preload** ist eine Funktion welche sicherstellt, dass eure Daten fertig ausgelesen sind bevor im Code etwas anderes damit geschieht. Die Reihenfolge eines P5 Sketches ist dementsprechen 1.) preload, 2.) setup, 3.) draw. **Achtung: Preload lädt die Daten nur, mann kann noch nicht direkt darauf zugreifen. Dies ist erst in setup und draw möglich. Daher empfehlen wir euch die folgende Datenstruktur:**
+Um Daten in P5js zu laden braucht ihr [preload()](https://p5js.org/reference/#/p5/preload) sowie [loadTable()](https://p5js.org/reference/#/p5/loadTable). **Preload** ist eine Funktion welche sicherstellt, dass eure Daten fertig ausgelesen sind bevor im Code etwas anderes damit geschieht. Die Reihenfolge eines P5 Sketches ist dementsprechen 1.) preload, 2.) setup, 3.) draw. **Achtung: Preload lädt die Daten nur, mann kann noch nicht direkt darauf zugreifen. Dies ist erst in setup und draw möglich. Daher empfehlen wir euch die folgende Programmstruktur:**
 
 ```gs
 // ein leerer Platzhalter
