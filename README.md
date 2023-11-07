@@ -8,32 +8,32 @@ Im Kurs «Creative Coding» schreibt ihr eure ersten kleinen Programme um einen 
 
 **Montag**
 
-  - Vormittag: Einführung, Übung 1 «Selbstportrait» (Gordan)
-  - Nachmittag: Übung 2 «10Print» (Max)
+- Vormittag: Einführung, Übung 1 «Selbstportrait» (Gordan)
+- Nachmittag: Übung 2 «10Print» (Max)
 
 **Dienstag**
 
-  - Vormittag: Übung 3 & 4, mit Arrays arbeiten, CSV Daten importieren (Gordan)
-  - Nachmittag: Projektarbeit & individuelle Betreuung (Max)
-  
+- Vormittag: Übung 3 & 4, mit Arrays arbeiten, CSV Daten importieren (Gordan)
+- Nachmittag: Projektarbeit & individuelle Betreuung (Max)
+
 **Mittwoch**
 
-  - Vormittag: Projektarbeit & individuelle Betreuung (Max)
-  - Nachmittag: Kurzes Show & Tell, Projektarbeit, Dokumentation & individuelle Betreuung (Gordan & Max)
+- Vormittag: Projektarbeit & individuelle Betreuung (Max)
+- Nachmittag: Kurzes Show & Tell, Projektarbeit, Dokumentation & individuelle Betreuung (Gordan & Max)
 
 ## Day 1, Montag
 
 ### Vormittag: Kick Off & Übung 1 «Selbstportrait»
 
-  - Um gleich loslegen zu können nutzen wir den von P5 zur Verfügung gestellten Online-Editor. Erstelle dazu [hier](https://editor.p5js.org/) einen Account.
-  - Schreibe deine erste Zeile Code: Ergänze ```line(0,0,100,100);``` in Zeile 7 vor dem ```}```
-  - Was beschreiben die vier Parameter von `line` innherhalb der Klammern? Seht euch dazu auch die [Online-Referenz](https://p5js.org/reference/#/p5/line) an. Eine solche Referenz existiert für jede Funktion die P5 bietet.
-  - Kannst du den Code ergänzen, damit ein X angezeigt wird?
-  - Könnt ihr einen Kreis in die Mitte der Zeichenfläche setzen? Färbt den Kreis in einer anderen Farbe ein.
+- Um gleich loslegen zu können nutzen wir den von P5 zur Verfügung gestellten Online-Editor. Erstelle dazu [hier](https://editor.p5js.org/) einen Account.
+- Schreibe deine erste Zeile Code: Ergänze `line(0,0,100,100);` in Zeile 7 vor dem `}`
+- Was beschreiben die vier Parameter von `line` innherhalb der Klammern? Seht euch dazu auch die [Online-Referenz](https://p5js.org/reference/#/p5/line) an. Eine solche Referenz existiert für jede Funktion die P5 bietet.
+- Kannst du den Code ergänzen, damit ein X angezeigt wird?
+- Könnt ihr einen Kreis in die Mitte der Zeichenfläche setzen? Färbt den Kreis in einer anderen Farbe ein.
 
 ![Selbstportrait](img/selfportrait.png)
 
-Zeichnet euch selbst in P5js! Don’t go for realistic, konzentriert euch auf ein markantes Detail. Alles ist erlaubt. Dadurch lernt ihr die folgenden grundlegenden Techniken von P5: 
+Zeichnet euch selbst in P5js! Don’t go for realistic, konzentriert euch auf ein markantes Detail. Alles ist erlaubt. Dadurch lernt ihr die folgenden grundlegenden Techniken von P5:
 
 - Umgang mit dem Koordinaten System
 - Grundstruktur eines Programmes mit `setup` und `draw`
@@ -50,9 +50,9 @@ Variablen sind ein zentraler Bestandteil jeder Programmiersprache. Mittels einer
 
 ```js
 let meineVariable; // definiere eine "leere" Variable mit dem namen "meineVariable" (bis auf ein paar Ausnahmen frei wählbar)
-meineVariable = 10 // den Wert 10 der Variable zuweisen
+meineVariable = 10; // den Wert 10 der Variable zuweisen
 
-let neueVariable = 20 // Variable definieren und direkt einen Wert zuweisen
+let neueVariable = 20; // Variable definieren und direkt einen Wert zuweisen
 ```
 
 Hier ist ein einfaches Beispiel wie eine Variable verwendet werden kann um ein Rechteck an Position `10`, `10` mit einer Breite und Höhe von `100` Pixel zu zeichnen.
@@ -67,14 +67,14 @@ rect(x, y size, size)
 
 #### Operatoren
 
-Handelt es sich bei der gespeicherten Variable um eine Zahl kann man einfache mathematische Operationen vornehmen mit `+`, `-`, `*` und `/`. Hier ist ein Beispiel: 
+Handelt es sich bei der gespeicherten Variable um eine Zahl kann man einfache mathematische Operationen vornehmen mit `+`, `-`, `*` und `/`. Hier ist ein Beispiel:
 
 ```js
-let size = 100 // initialer Wert
-size = size + 100 // nun ist size 200
-size = size - 50 // nun ist size 150
-size = size * 2 // nun ist size 300
-size = size / 2 // nun ist size wieder 150
+let size = 100; // initialer Wert
+size = size + 100; // nun ist size 200
+size = size - 50; // nun ist size 150
+size = size * 2; // nun ist size 300
+size = size / 2; // nun ist size wieder 150
 ```
 
 Sketch: [Bewegte Ellipse](https://editor.p5js.org/ritzdank/sketches/auAN2lb8a)
@@ -84,19 +84,19 @@ Sketch: [Bewegte Ellipse](https://editor.p5js.org/ritzdank/sketches/auAN2lb8a)
 Es gibt einige Variablen welche P5 euch automatisch zur Verfügung stellt:
 
 - `mouseX` und `mouseY` beinhalten die Position eurer Maus. Versuche einmal eine Form zu zeichnen und ersetze `x` und `y` durch diese Variablen, cool oder?
-- `width` und `height` beinhalten die Dimensionen eures Sketches, also die Zahlen welche ihr im Befehl `createCanvas()` festlegt. Diese Variablen sind sehr nützlich um bspw. mit einem Grid zu arbeiten oder Objekte bspw. in der Mitte zu positionieren. 
-- Für weitere Info's zu Variablen sieh dir [dieses Dokument]((https://github.com/fleshgordo/LaboCreativeCoding/blob/main/02_variables.md)) sowie [dieses Video](https://tube.switch.ch/videos/8c793d97) von Gordan an.
+- `width` und `height` beinhalten die Dimensionen eures Sketches, also die Zahlen welche ihr im Befehl `createCanvas()` festlegt. Diese Variablen sind sehr nützlich um bspw. mit einem Grid zu arbeiten oder Objekte bspw. in der Mitte zu positionieren.
+- Für weitere Info's zu Variablen sieh dir [dieses Dokument](<(https://github.com/fleshgordo/LaboCreativeCoding/blob/main/02_variables.md)>) sowie [dieses Video](https://tube.switch.ch/videos/8c793d97) von Gordan an.
 
 #### Random
 
-Normalerweise braucht man ein bisschen Zufall, damit die Resultate eurer Programme 🔥 werden. Dafür gibt es u.a. den Befehl `random()` welcher euch eine zufällige Zahl innerhalb eines von euch festgelegten Rahmens erzeugt. 
+Normalerweise braucht man ein bisschen Zufall, damit die Resultate eurer Programme 🔥 werden. Dafür gibt es u.a. den Befehl `random()` welcher euch eine zufällige Zahl innerhalb eines von euch festgelegten Rahmens erzeugt.
 
 ```js
 // zufällige Zahl zwischen 1 und 100
-let xRan = random(0, 100)
+let xRan = random(0, 100);
 
 // zufällige Zahl zwischen 1 und der Höhe eures Sketches
-let yRan = random(0, height)
+let yRan = random(0, height);
 ```
 
 #### If/else Statements
@@ -106,22 +106,21 @@ If/else Statements kommen in den meisten Programmiersprachen vor und sind ein ze
 ```js
 let maximum = 100;
 
-if(maximum == 100) {
+if (maximum == 100) {
   // wenn maximum 100 ist, wird dieser code ausgefüht
-  ellipse(10, 10, 20, 20)
+  ellipse(10, 10, 20, 20);
 } else {
   // falls nicht, dieser hier
-  rect(10, 10, 20, 20)
+  rect(10, 10, 20, 20);
 }
 ```
 
 Ihr könnt auch Werte vergleich ob sie z. B. grösser oder kleiner sind:
 
 ```js
-if (mouseX < width /2) {
+if (mouseX < width / 2) {
   background(0);
-}
-else {
+} else {
   background(255);
 }
 ```
@@ -139,10 +138,9 @@ Mit diesem Code könnt ihr bereits ein Zufallsgenerator erstellen, der wie ein M
 ```js
 let zufall = random(0, 1); // erzeugt eine Zufallszahl zwischen 0 und 1
 if (zufall < 0.5) {
-  print("yes")
-}
-else {
-  print("no")
+  print("yes");
+} else {
+  print("no");
 }
 ```
 
@@ -156,7 +154,7 @@ Hier ein [Link](https://editor.p5js.org/maxfrischknecht/sketches/39UZqOiP-) zum 
 
 #### While Loop
 
-Eine while-Schleife ist eine Art von Schleife, die einen Codeblock wiederholt, solange eine bestimmte Bedingung erfüllt ist. While-Schleifen sind ideal, wenn wir Code eine unbekannte Anzahl von Malen wiederholen wollen. 
+Eine while-Schleife ist eine Art von Schleife, die einen Codeblock wiederholt, solange eine bestimmte Bedingung erfüllt ist. While-Schleifen sind ideal, wenn wir Code eine unbekannte Anzahl von Malen wiederholen wollen.
 
 ```js
 while(boolean expression){
@@ -165,15 +163,15 @@ while(boolean expression){
 ```
 
 ```js
-while(x < width){
-    rect(x,0,10,40);
-    x = x + 20;
+while (x < width) {
+  rect(x, 0, 10, 40);
+  x = x + 20;
 }
 ```
 
-Wenn der boolesche Ausdruck als wahr bewertet wird, wird der Code innerhalb der Schleife ausgeführt. Sobald der boolesche Ausdruck als falsch bewertet wird, verlässt der Computer die while-Schleife und fährt mit dem Programm fort. 
+Wenn der boolesche Ausdruck als wahr bewertet wird, wird der Code innerhalb der Schleife ausgeführt. Sobald der boolesche Ausdruck als falsch bewertet wird, verlässt der Computer die while-Schleife und fährt mit dem Programm fort.
 
-#### For Loop 
+#### For Loop
 
 Wenn wir viele ähnliche Operationen auf einmal erledigen wollen, ist die "for-Schleife" das Mittel der Wahl. `let i` ist ein Zähler, der normalerweise bei 0 beginnt. Solange `i` kleiner als 100 ist, wird der Code innerhalb der `{}` ausgeführt. `i = i + 1` gibt an, wie groß die Zählschritte sind:
 
@@ -207,35 +205,81 @@ for (let i = 0; i < liste.length; i++) {
 }
 ```
 
-Sehe dir den [Starter sketch](https://editor.p5js.org/ritzdank/sketches/cCpF-9n7c) dazu an und versuche die Werte der Liste zu ändern bzw. die Visualisierung. Hierbei kann auch die [`map()` Funktion](https://p5js.org/reference/#/p5/map) hilfreich sein um Werte zu skalieren. 
+Sehe dir den [Starter sketch](https://editor.p5js.org/ritzdank/sketches/cCpF-9n7c) dazu an und versuche die Werte der Liste zu ändern bzw. die Visualisierung. Hierbei kann auch die [`map()` Funktion](https://p5js.org/reference/#/p5/map) hilfreich sein um Werte zu skalieren.
 
 ### Übung 3: Datensatz Array
 
 ![schweiz](img/schweiz.jpg)
 
-  - Aufgabe: Erstellt zwei Arrays/Listen (mit Nummern oder Text) und visualisiert diese. Probiert andere Visualisierungsformen aus (ellipse, line, point, arc, etc.) bzw. Gegenüberstellungen wie hier im Bild (Schweiz in Bild und Zahl)
-  - Input [Arrays Teil 1](https://tube.switch.ch/videos/52a76917), [Arrays Teil 2](https://tube.switch.ch/videos/f3d6bdb1), [Arrays Teil 3](https://tube.switch.ch/videos/dfebe960)
-  - [Code](https://editor.p5js.org/ritzdank/sketches/cCpF-9n7c)
+- Aufgabe: Erstellt zwei Arrays/Listen (mit Nummern oder Text) und visualisiert diese. Probiert andere Visualisierungsformen aus (ellipse, line, point, arc, etc.) bzw. Gegenüberstellungen wie hier im Bild (Schweiz in Bild und Zahl)
+- Input [Arrays Teil 1](https://tube.switch.ch/videos/52a76917), [Arrays Teil 2](https://tube.switch.ch/videos/f3d6bdb1), [Arrays Teil 3](https://tube.switch.ch/videos/dfebe960)
+- [Code](https://editor.p5js.org/ritzdank/sketches/cCpF-9n7c)
 
 ### Übung 4: Datensatz CSV
 
-![csv](img/csv.png)
-  - Aufgabe: Ausgehend vom Beispiel “Daten CSV” versucht einen der beiden Parameter (oder beide, km/ feeling) zu visualisieren. Ihr könnt den Datensatz erweitern, verändern oder auf euren eigenen Datensatz anpassen. Exportiert euren Sketch als SVG oder PNG.
+Um Daten in P5js zu laden braucht ihr [preload()](https://p5js.org/reference/#/p5/preload) sowie [loadTable()](https://p5js.org/reference/#/p5/loadTable). **Preload** ist eine Funktion welche sicherstellt, dass eure Daten fertig ausgelesen sind bevor im Code etwas anderes damit geschieht. Die Reihenfolge eines P5 Sketches ist dementsprechen 1.) preload, 2.) setup, 3.) draw. **Achtung: Preload lädt die Daten nur, mann kann noch nicht direkt darauf zugreifen. Dies ist erst in setup und draw möglich. Daher empfehlen wir euch die folgende Datenstruktur:**
 
-  - [Empty Example](https://editor.p5js.org/maxfrischknecht/sketches/IW5Z9YYsO)
-  - [Finished Example](https://editor.p5js.org/ritzdank/sketches/wd1YuitBP)
-  - Andere Beispiele: [Average Temperature CH](https://editor.p5js.org/ritzdank/sketches/gshTXPNA9)
-  
+```gs
+// ein leerer Platzhalter
+let data;
+
+function preload() {
+  // die Daten werden geladen
+  data = loadTable("data.csv", "csv", "header");
+}
+
+function setup() {
+  // die Daten sind fertig geladen, man kann sie hier oder in draw nutzen
+  console.log(data);
+}
+```
+
+Sobald das CSV geladen ist könnt ihr über die verwendete Variable auf spezifische Teile der Daten zugreifen, hier ein paar Beispiele.
+
+```gs
+// greife auf alle zeilen (rows) zu
+let alleZeilen = data.getRows();
+
+// Greife auf die erste Zeile zu, da es sich um einen Array handelt kannst du mit der Indexnummer (hier 0) auf die Zeile zugreifen.
+let ersteZeile = data.getRow(0); // oder alleZeilen[0];
+
+// Greife auf die Werte der ersten Zeile zu, bspw. auf den Wert "Feeling"
+let feelingErsteZeile = ersteZeile.obj["feeling"];
+
+// greife auf eine bestimmte spalte (column) zu
+let feel = data.getColumn("feeling");
+
+// finde heraus wieviele zeilen (=Einträge) deine Daten haben, praktisch für loops
+let anzahlZeilen = data.getRowCount();
+
+// ein Loop auf alle Zeilen und ihre Werte zuzugreifen
+for (let i = 0; i < data.getRowCount(); i = i + 1) {
+  let currentEntry = data.getRow(i);
+  let currentWorkout = currentEntry.obj["workout"];
+  let currentFeeling = currentEntry.obj["feeling"];
+}
+```
+
+Schau dir [dieses Skript](https://editor.p5js.org/maxfrischknecht/sketches/e6CmCEGik) an für die verschiedenen Funktionen.
+
+![csv](img/csv.png)
+
+- Aufgabe: Ausgehend vom Beispiel “Daten CSV” versucht einen der beiden Parameter (oder beide, km/ feeling) zu visualisieren. Ihr könnt den Datensatz erweitern, verändern oder auf euren eigenen Datensatz anpassen. Exportiert euren Sketch als SVG oder PNG.
+
+- [Empty Example](https://editor.p5js.org/maxfrischknecht/sketches/IW5Z9YYsO)
+- [Finished Example](https://editor.p5js.org/ritzdank/sketches/wd1YuitBP)
+- Andere Beispiele: [Average Temperature CH](https://editor.p5js.org/ritzdank/sketches/gshTXPNA9)
+
 ## Day 3
 
-  - Individuelle Projektbetreuung
+- Individuelle Projektbetreuung
 
 #### Save & Export
 
-Es gibt verschiedene Wege um die Bilder welche ihr in P5js kreiert zu exportieren, einer davon ist die Funktion `save()` mit welcher ihr den gesammten Canvas / Sketch als Bild exportieren könnt. 
+Es gibt verschiedene Wege um die Bilder welche ihr in P5js kreiert zu exportieren, einer davon ist die Funktion `save()` mit welcher ihr den gesammten Canvas / Sketch als Bild exportieren könnt.
 
 ```js
-save('myCanvas.jpg');
+save("myCanvas.jpg");
 ```
 
 Mit dieser [Library](https://github.com/zenozeng/p5.js-svg) kann man auch direkt SVG (Vektor-basierte) Files exportieren. Hier ein [Beispiel-Sketch](https://editor.p5js.org/ritzdank/sketches/Qs7CHQnJV).
@@ -249,7 +293,7 @@ Eine Visualisierung mit p5js und einem Datensatz welchen ihr im “Analogen Algo
 
 ## References
 
-### Konzepte 
+### Konzepte
 
 - [Shapes & Drawing](https://www.youtube.com/watch?v=c3TeLi6Ns1E)
 - [Colors](https://www.youtube.com/watch?v=riiJTF5-N7c)
@@ -261,8 +305,7 @@ Eine Visualisierung mit p5js und einem Datensatz welchen ihr im “Analogen Algo
 - [CSV](https://www.youtube.com/watch?v=RfMkdvN-23o)
 - [Working with APIs in Javascript](https://www.youtube.com/watch?v=rJaXOFfwGVw&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r)
 
-
-### Individuelles was Aufgetaucht ist
+### Individuelle Fragen & Referenzen
 
 - Werte umrechnen: [Die Map Funktion](https://www.youtube.com/watch?v=nicMAoW6u1g)
 - Objekte drehen: [translate, rotate, push & pop](https://www.youtube.com/watch?v=o9sgjuh-CBM)
@@ -270,8 +313,8 @@ Eine Visualisierung mit p5js und einem Datensatz welchen ihr im “Analogen Algo
 
 ### Generell
 
-- [Creative Coding Intro](https://github.com/fleshgordo/LaboCreativeCoding) by Gordan 
-- [Creative Coding class](https://creative-coding.decontextualize.com/) by A. Parish 
+- [Creative Coding Intro](https://github.com/fleshgordo/LaboCreativeCoding) by Gordan
+- [Creative Coding class](https://creative-coding.decontextualize.com/) by A. Parish
 - [p5 learn](https://p5js.org/learn/)
 - [p5 reference](https://p5js.org/reference/)
 - [Coding Train 🚂](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw)
