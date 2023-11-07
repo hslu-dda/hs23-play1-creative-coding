@@ -244,7 +244,7 @@ let alleZeilen = data.getRows();
 let ersteZeile = data.getRow(0); // oder alleZeilen[0];
 
 // Greife auf die Werte der ersten Zeile zu, bspw. auf den Wert "Feeling"
-let feelingErsteZeile = ersteZeile.obj["feeling"];
+let feelingErsteZeile = data.getRow(0).obj["feeling"];
 
 // greife auf eine bestimmte spalte (column) zu
 let feel = data.getColumn("feeling");
@@ -261,6 +261,8 @@ for (let i = 0; i < data.getRowCount(); i = i + 1) {
 ```
 
 Schau dir [dieses Skript](https://editor.p5js.org/maxfrischknecht/sketches/e6CmCEGik) an für die verschiedenen Funktionen.
+
+Was P5 hinter den Kulissen macht, ist euer CSV in eine JSON Objekt umzuwandeln. JSON steht für [JavaScript Object Notation](https://de.wikipedia.org/wiki/JavaScript_Object_Notation) und ist ein Datenstandart welcher weit verbreitet ist. Die meisten APIs im Web arbeiten mit JSON. Ihr findet in den Referenzen ein Video zu JSON falls ihr mehr darüber erfahren möchtet.
 
 ![csv](img/csv.png)
 
@@ -303,6 +305,7 @@ Eine Visualisierung mit p5js und einem Datensatz welchen ihr im “Analogen Algo
 - [While & For Loops](https://www.youtube.com/watch?v=cnRD9o6odjk)
 - [Arrays](https://www.youtube.com/watch?v=VIQoUghHSxU)
 - [CSV](https://www.youtube.com/watch?v=RfMkdvN-23o)
+- [JSON](https://www.youtube.com/watch?v=118sDpLOClw)
 - [Working with APIs in Javascript](https://www.youtube.com/watch?v=rJaXOFfwGVw&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r)
 
 ### Individuelle Fragen & Referenzen
