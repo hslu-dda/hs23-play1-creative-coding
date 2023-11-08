@@ -312,7 +312,7 @@ Eine Visualisierung mit p5js und einem Datensatz welchen ihr im “Analogen Algo
 
 - Werte umrechnen: [Die Map Funktion](https://www.youtube.com/watch?v=nicMAoW6u1g)
 - Objekte drehen: [translate, rotate, push & pop](https://www.youtube.com/watch?v=o9sgjuh-CBM)
-- Objekte im Kreis anordnen: [sin, cos](https://www.youtube.com/watch?v=O5wjXoFrau4)
+- Objekte im Kreis anordnen: [sin/cos Tutorial](https://www.youtube.com/watch?v=O5wjXoFrau4), [Sample Code](https://editor.p5js.org/maxfrischknecht/sketches/XbjyBjkY-)
 - Custom shapes: [vertex](https://www.youtube.com/watch?v=76fiD5DvzeQ)
 - Kreisflächen darstellen: [Verzerrungen vermeiden](https://editor.p5js.org/ritzdank/sketches/nFDNQ7Fq-)
 - Vektoren: [Distanzen zwischen Punkten & Positionen berechnen](https://www.youtube.com/watch?v=bKEaK7WNLzM)
